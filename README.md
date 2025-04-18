@@ -19,7 +19,7 @@ This project includes designing, implementing, and verifying a 15th-order low-pa
 
 ### 1. Filter Design in MATLAB
 
-The FIR filter was designed using MATLAB filter designer. The filter specification are as follows:
+The FIR filter was designed using MATLAB filter designer. The filter specifications are as follows:
 
 - **Filter Order:** 15  
 - **Cutoff Frequency (Fc):** 10 MHz  
