@@ -57,7 +57,7 @@ The FIR filter was implemented in a modular way based on the direct form using f
 - **`fir_block.v`** – Represents a single FIR tap including delay, coefficient multiplication, and accumulation  
 - **`FIR.v`** – Top-level module instantiating all FIR taps and handling the data flow through the filter stages
 
-![image](https://github.com/user-attachments/assets/3e065548-0a45-4c44-97b1-0db3cf39a64a)
+![image](https://github.com/user-attachments/assets/1c9de82b-efe5-4219-abf2-794f31429957)
 
 
 ### 5. Testbench & Verification in Vivado
