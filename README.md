@@ -74,5 +74,24 @@ To verify the filter's functionality:
   - 30 MHz sine
   - Composite input (signal at 2 MHz + noise at (30 MHz & 45 MHz))
 
+## Results
+
+The filter was verified against three types of inputs. Below are illustrative outcomes:
+
+- ✅ Passed: 2 MHz signal retained with minimal distortion
+  
+  ![image](https://github.com/user-attachments/assets/3f5e2fec-f6cb-46b6-8401-ed1065447a1a)
+
+- ✅ Passed: 30 MHz signals were highly attenuated
+  
+
+![image](https://github.com/user-attachments/assets/6cbea3a4-429a-49bf-bff8-3b6196e91739)
+
+
+- ✅ Passed: Composite input (2 MHz + noise) , noise at 30MHz and 45MHz was effectively filtered.
+
+![image](https://github.com/user-attachments/assets/71942c06-a742-4b9f-8af5-89eba1ee4204)
+
+
 - Simulation results confirmed proper filter operation, with high-frequency noise significantly attenuated and the in-band signal preserved.
 - Plots from MATLAB simulation (`fir.m`) confirm that the filter meets its frequency response targets.
