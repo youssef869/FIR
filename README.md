@@ -74,5 +74,5 @@ To verify the filter's functionality:
   - 30 MHz sine
   - Composite input (signal at 2 MHz + noise at (30 MHz & 45 MHz))
 
--> Simulation results confirmed proper filter operation, with high-frequency noise significantly attenuated and the in-band signal preserved.
--> Plots from MATLAB simulation (`fir.m`) confirm that the filter meets its frequency response targets.
+- Simulation results confirmed proper filter operation, with high-frequency noise significantly attenuated and the in-band signal preserved.
+- Plots from MATLAB simulation (`fir.m`) confirm that the filter meets its frequency response targets.
