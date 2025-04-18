@@ -19,11 +19,12 @@ This project showcases the complete flow of designing, implementing, and verifyi
 
 ### 1. Filter Design in MATLAB
 
-The FIR filter was designed using MATLAB’s `fir1` function with a Hamming window. The following design parameters were used:
+The FIR filter was designed using MATLAB filter designer. The filter specification are as follows:
 
 - **Filter Order:** 15  
 - **Cutoff Frequency (Fc):** 10 MHz  
 - **Sampling Frequency (Fs):** 100 MHz
+- **Window:** Hamming
   
 ![mag_response](https://github.com/user-attachments/assets/902a585a-550e-4360-a385-d23722de5566)
 
@@ -36,7 +37,7 @@ The filter coefficients were:
 
 ### 3. MATLAB Golden Model
 
-A behavioral model of the FIR filter was created in MATLAB for reference and verification. It simulates the response of:
+A behavioral model of the FIR filter was created in MATLAB for reference and verification. The filter was tested against three types of signals:
 
 - A 2 MHz sinusoidal signal
 - A 30 MHz sinusoidal signal
@@ -64,7 +65,7 @@ The FIR filter was implemented in a modular way based on the direct form using f
 
 To verify the filter's functionality:
 
-- A custom testbench [`my_tb.v`](./my_tb.v) was created.
+- A custom testbench was created.
 - Sinusoidal test signals were generated using **Xilinx CORDIC IP cores** at:
   - 2 MHz (in-band signal)
   - 30 MHz (out-of-band noise)
@@ -94,4 +95,3 @@ The filter was verified against three types of inputs. Below are illustrative ou
 
 
 - Simulation results confirmed proper filter operation, with high-frequency noise significantly attenuated and the in-band signal preserved.
-- Plots from MATLAB simulation (`fir.m`) confirm that the filter meets its frequency response targets.
