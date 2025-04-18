@@ -12,10 +12,6 @@ This project showcases the complete flow of designing, implementing, and verifyi
   - [3. MATLAB Golden Model](#3-matlab-golden-model)
   - [4. Verilog RTL Implementation](#4-verilog-rtl-implementation)
   - [5. Testbench & Verification in Vivado](#5-testbench--verification-in-vivado)
-- [Project Files](#project-files)
-- [Results](#results)
-- [Author](#author)
-
 ---
 
 
@@ -46,16 +42,23 @@ A behavioral model of the FIR filter was created in MATLAB for reference and ver
 - A 30 MHz sinusoidal signal
 - A composite signal combining a 2 MHz signal along with 30 MHz and 45 MHz noise
 
+![matlab_results](https://github.com/user-attachments/assets/d7db255b-a4c7-45cc-9ac8-fbc64c830c02)
+
+![matlab_results2](https://github.com/user-attachments/assets/475228ae-94be-4090-b6ca-c2a2f6be15b4)
+
 
 ### 4. Verilog RTL Implementation
 
-The FIR filter was implemented in a modular way using five Verilog files:
+The FIR filter was implemented in a modular way based on the direct form using five Verilog files:
 
 - **`dff.v`** – A simple D flip-flop module for pipelining and register stages  
 - **`multiplier.v`** – Performs signed multiplication of the input sample with a filter coefficient  
 - **`adder.v`** – Adds two signed input values, forming part of the accumulation path  
 - **`fir_block.v`** – Represents a single FIR tap including delay, coefficient multiplication, and accumulation  
 - **`FIR.v`** – Top-level module instantiating all FIR taps and handling the data flow through the filter stages
+
+![image](https://github.com/user-attachments/assets/3e065548-0a45-4c44-97b1-0db3cf39a64a)
+
 
 ### 5. Testbench & Verification in Vivado
 
