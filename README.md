@@ -32,7 +32,7 @@ The FIR filter was designed using MATLAB’s `fir1` function with a Hamming wind
 As the filter is 15th order, it has 16 coefficients.
 The filter coefficients were:
 - Exported from MATLAB.
-- Scaled and converted to a fixed-point representation for the RTL.
+- Scaled and converted to a fixed-point representation to be used in the RTL design.
 
 ### 3. MATLAB Golden Model
 
