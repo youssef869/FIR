@@ -1,6 +1,6 @@
 #  FIR Filter Implementation and Verification
 
-This project showcases the complete flow of designing, implementing, and verifying a 15th-order low-pass FIR filter with cut-off frequency of 10MHz and sampling rate of 100MHz. It involves MATLAB-based filter design and modeling, Verilog RTL implementation, and functional verification using Vivado and Xilinx's CORDIC IP core for sinusoidal inputs generation.
+This project includes designing, implementing, and verifying a 15th-order low-pass FIR filter with a cut-off frequency of 10 MHz and a sampling rate of 100 MHz. It involves MATLAB-based filter design and modeling, Verilog RTL implementation, and functional verification using Vivado and Xilinx's CORDIC IP core for sinusoidal input generation.
 
 ---
 
