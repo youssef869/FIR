@@ -49,8 +49,7 @@ A behavioral model of the FIR filter was created in MATLAB for reference and ver
 
 ![matlab_results](https://github.com/user-attachments/assets/d7db255b-a4c7-45cc-9ac8-fbc64c830c02)
 
-![matlab_results2](https://github.com/user-attachments/assets/475228ae-94be-4090-b6ca-c2a2f6be15b4)
-
+![composite_signal](https://github.com/user-attachments/assets/90695c99-5819-429a-a78d-ff093df952e2)
 
 ### 4. Verilog RTL Implementation
 
