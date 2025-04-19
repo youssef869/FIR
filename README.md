@@ -33,7 +33,11 @@ The FIR filter was designed using MATLAB filter designer. The filter specificati
 As the filter is 15th order, it has 16 coefficients.
 The filter coefficients were:
 - Exported from MATLAB.
-- Scaled and converted to a fixed-point representation to be used in the RTL design.
+- Scaled and converted to a fixed-point representation to be used in the RTL.
+
+
+![image](https://github.com/user-attachments/assets/341511e2-07f1-43b5-9206-85f6ac449ff2)
+
 
 ### 3. MATLAB Golden Model
 
