@@ -21,9 +21,9 @@
  */
 
 module FIR #(parameter WIDTH = 16)(
-input  wire               clk,
-input  wire               rst_n,
-input  wire signed [WIDTH-1: 0]  i_signal,  //x[n]
+input  wire                       clk,
+input  wire                       rst_n,
+input  wire signed [WIDTH-1: 0]   i_signal,  //x[n]
 output wire signed [2*WIDTH-1: 0] o_signal //y[n]
 );
 
