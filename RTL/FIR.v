@@ -8,7 +8,7 @@
  * Module Name :                       FIR
  *********************************************************************************************************************************************
  * Description :                       This module is for design of an FIR filter cofigured as a 15th-order low-pass FIR filter with a cut-off 
- *                                     frequency of 10 MHz and a sampling rate of 100 MHz
+ *                                     frequency of 10 MHz and a sampling rate of 100 MHz.
  *
  *                                     Inputs:
  *                                       - clk: Main system clock for the filter.
